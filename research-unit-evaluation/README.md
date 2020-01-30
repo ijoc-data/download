@@ -1,0 +1,1 @@
+This repository contains the research data for the real-world problem of parametric evaluation of research units. Each row provides the notation, the performance on multiple criteria, and the assignment for an alternative.
