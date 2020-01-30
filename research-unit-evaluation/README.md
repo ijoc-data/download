@@ -1,1 +1,9 @@
-This repository provides the research data for the real-world problem of parametric evaluation of Polish research units. It contains the performance of 993 research units in terms of four gain-type criteria: scientific activity (g1), scientific potential (g2), material effects of unit's activities (g3), and remaining (non-material) effects of unit's activities (g4). All the research units are divided into the following five subsets: 282 units from Humanities and Social Sciences (HS), 218 units from Life Sciences (NZ), 286 units from Exact Sciences and Engineering (SI), 99 units from Art and Artistic Creativity (TA), and 108 units judged as Inhomogeneous (NJN). Each unit is assigned to one of the four classes Cl1 - Cl4 (with Cl1 and Cl4 being, respectively, the least and the most preferred ones).
+Data set concerns real-world problem of parametric evaluation of Polish research units from Humanities and Social Sciences (HS), Life Sciences (NZ), Exact Sciences and Engineering (SI), Art and Artistic Creativity (TA), or judged as Inhomogeneous (NJN).
+
+Source: Polish Ministry of Science and Higher Education http://www.bip.nauka.gov.pl/kategorie-naukowe-przyznane-jednostkom-naukowym/wyniki-kompleksowej-oceny-jakosci-dzialalnosci-naukowej-lub-badawczo-rozwojowej-jednostek-naukowych-2017.html.
+
+Number of alternatives: 282 (HS), 218 (NZ), 286 (SI), 99 (TA), 108 (NJN); the membership of each alternative to a given set (HS, NZ, SI, TA, or NJN) is indicated in column “Subset”.
+
+Number of criteria: 4 (scientific activity (g1), scientific potential (g2), material effects of unit's activities (g3), remaining (non-material) effects of unit's activities (g4)); all criteria are of gain type (greater performances are preferred).
+
+Number of classes: 4 (Cl1 (low quality; the least preferred), Cl2 (medium quality), Cl3 (good quality), Cl4 (extraordinary quality; the most preferred)).
