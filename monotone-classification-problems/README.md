@@ -50,7 +50,6 @@ Number of criteria: 5 (BI-RADS assessment, age, mass shape, mass margin, density
 Number of classes: 2 (severity (benign or malignant))
 
 Auto MPG (MPG)
-
 Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) (originally from the 1983 American Statistical Association Exposition)
 Number of alternatives: 392 (cars)
 Number of criteria: 7 (mpg, cylinders, displacement, horsepower, weight, acceleration, model year)
