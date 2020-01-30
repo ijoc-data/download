@@ -8,10 +8,10 @@ Number of alternatives: 278 (patients)
 Number of criteria: 7 (menopause gain, tumor size, inv-nodes, node-caps, deg-malig, breast cost, irradiat gain)  
 Number of classes: 2 (output is a binary variable, namely no-recurrence-events and recurrence-events)
 
-Car Evaluation (CEV)
-Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) Number of alternatives: 1728 (cars)
-Number of criteria: 6 (buying price, price of maintenance, number of doors, capacity in terms of persons to carry, the size of the luggage boot (g5), estimated safety of the car)
-Number of classes: 3 (overall evaluation of the car: unacceptable, acceptable, or good)
+Car Evaluation (CEV)  
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) Number of alternatives: 1728 (cars)  
+Number of criteria: 6 (buying price, price of maintenance, number of doors, capacity in terms of persons to carry, the size of the luggage boot (g5), estimated safety of the car)  
+Number of classes: 3 (overall evaluation of the car: unacceptable, acceptable, or good)  
 
 CPU
 Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php)
