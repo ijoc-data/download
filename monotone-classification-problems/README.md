@@ -2,7 +2,11 @@ The repository contains the research data for monotone classification problems i
 
 A brief description of the data sets is as follows:
 
-Breast Cancer (BCC)  Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) (originally from the University Medical Center, Institute of Oncology, Ljubljana, Yugoslavia (Slovenia))  Number of alternatives: 278 (patients)  Number of criteria: 7 (menopause gain, tumor size, inv-nodes, node-caps, deg-malig, breast cost, irradiat gain)  Number of classes: 2 (output is a binary variable, namely no-recurrence-events and recurrence-events)
+Breast Cancer (BCC)  
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) (originally from the University Medical Center, Institute of Oncology, Ljubljana, Yugoslavia (Slovenia))  
+Number of alternatives: 278 (patients)  
+Number of criteria: 7 (menopause gain, tumor size, inv-nodes, node-caps, deg-malig, breast cost, irradiat gain)  
+Number of classes: 2 (output is a binary variable, namely no-recurrence-events and recurrence-events)
 
 Car Evaluation (CEV)
 Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) Number of alternatives: 1728 (cars)
