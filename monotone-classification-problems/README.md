@@ -1,21 +1,56 @@
-This repository contains the research data for each monotone classification problem. Each .csv file provides the notation, the performance on multiple criteria, and the assignment for each alternative.
+The repository contains the research data for monotone classification problems involving preference-ordered criteria (input variables) and classes (output variables). Each .csv file provides the notation, performances of alternatives on multiple criteria, and their assignments to the respective classes. All criteria are of gain type (greater values are more preferred) with performances normalized in the [0,1] interval. Greater class index indicates more preferred class (e.g., Cl2 is preferred to Cl1).
 
 A brief description of the data sets is as follows:
 
-DenBosch (DBS): This data set contains eight criteria describing houses in the city of Den Bosch: district, area, number of bedrooms, type of house, volume, storeys, type of garden, garage, and price. The output is a binary variable indicating whether the price of the house is low or high (depending on whether it exceeds a threshold).
+Breast Cancer (BCC)
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) (originally from the University Medical Center, Institute of Oncology, Ljubljana, Yugoslavia (Slovenia))
+Number of alternatives: 278 (patients)
+Number of criteria: 7 (menopause gain, tumor size, inv-nodes, node-caps, deg-malig, breast cost, irradiat gain)
+Number of classes: 2 (output is a binary variable, namely no-recurrence-events and recurrence-events)
 
-CPU: This is a standard benchmark data set from the UCI repository. It contains eight input criteria, two of which were removed because they are obviously of no predictive value (vendor name, model name). The problem is to predict the (estimated) relative performance of a CPU (binarized by thresholding at the median) based on its machine cycle time in nanoseconds, minimum main memory in kilobytes, maximum main memory in kilobytes, cache memory in kilobytes, minimum channels in units, and maximum channels in units.
+Car Evaluation (CEV)
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) Number of alternatives: 1728 (cars)
+Number of criteria: 6 (buying price, price of maintenance, number of doors, capacity in terms of persons to carry, the size of the luggage boot (g5), estimated safety of the car)
+Number of classes: 3 (overall evaluation of the car: unacceptable, acceptable, or good)
 
-Breast Cancer (BCC): This data set was obtained from the University Medical Center, Institute of Oncology in Ljubljana, Yugoslavia. There are seven criteria, namely menopause gain, tumor size, inv-nodes, node-caps, deg-malig, breast cost and irradiat gain. The output is a binary variable, namely no recurrence events and recurrence events.
+CPU
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php)
+Number of alternatives: 209 (CPUs)
+Number of criteria: 6 (machine cycle time, minimum main memory, maximum main memory, cache memory, minimum channels, maximum channels)
+Number of classes: 4 (the (estimated) relative performance of a CPU)
 
-Auto MPG (MPG): This data set was used in the 1983 American Statistical Association Exposition. The criteria are mpg, cylinders, displacement, horsepower, weight, acceleration, model year, and origin. The data concerns city–cycle fuel consumption in miles per gallon to be predicted in terms of three multivalued discrete and five continuous criteria.
+DenBosch (DBS)
+Source: Daniels H, Kamp B (1999), Applications of MLP networks to bond rating and house pricing. Neural Computing & Applications 8(3):226–234.
+Number of alternatives: 120 (houses in the city of Den Bosch)
+Number of criteria: 8 (area, number of bedrooms, type of house, volume, storeys, type of garden, garage, price)
+Number of classes: 2 (the output is a binary variable indicating whether the price of the house is low or high)
 
-Employee Selection (ESL): This data set contains profiles of applicants for certain industrial jobs. The values of the four input criteria were determined by expert psychologists based upon psychometric test results and interviews with the candidates. The output is an overall score on an ordinal scale between one and five, corresponding to the degree of suitability of each candidate to this type of job.
+Employee Rejection/Acceptance (ERA)
+Source: WEKA (https://www.cs.waikato.ac.nz/ml/weka/) (originally from an academic decision-making experiment)
+Number of alternatives: 1000 (candidates for a certain type of job)
+Number of criteria: 4 (features of a candidate such as past experience, verbal skills, etc.)
+Number of classes: 3 (subjective judgment; degree to which applicant for the job would be accepted) 
 
-Mammography (MMG): This data set is taken from breast cancer screening by mammography. The goal is to predict the severity (benign or malignant) of a mammographic mass lesion from BI-RADS criteria (mass shape, mass margin, density) and the patient’s age.
+Employee Selection (ESL)
+Source: WEKA (https://www.cs.waikato.ac.nz/ml/weka/)
+Number of alternatives: 488 (applicants for certain industrial jobs)
+Number of criteria: 4 (scores based upon psychometric test results and interviews with the candidates)
+Number of classes: 5 (degree of suitability of each candidate to this type of job)
 
-Employee Rejection/Acceptance (ERA): This data set originates from an academic decision-making experiment. The input criteria are features of a candidate, such as past experience, verbal skills, etc., and the output is the subjective judgement of a decision maker, measured on an ordinal scale from one to three, to which degree the decision maker tends to accept the applicant for the job.
+Lecturers Evaluation (LEV)
+Source: WEKA (https://www.cs.waikato.ac.nz/ml/weka/) 
+Number of alternatives: 1000 (lecturer evaluations taken at the end of MBA courses)
+Number of criteria: 4 (oral skills and contributions to their professional/general knowledge)
+Number of classes: 4 (comprehensive evaluation of each lecturer’s performance)
 
-Lecturers Evaluation (LEV): This data set contains examples of anonymous lecturer evaluations, taken at the end of MBA courses. Students were asked to score their lecturers according to four criteria, such as oral skills and contribution to their professional/general knowledge. The output was a total evaluation of each lecturer’s performance measured on an ordinal scale from zero to four.
+Mammographic (MMG)
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) 
+Number of alternatives: 830 (patients evaluated in terms of breast cancer screening by mammography)
+Number of criteria: 5 (BI-RADS assessment, age, mass shape, mass margin, density)
+Number of classes: 2 (severity (benign or malignant))
 
-Car Evaluation (CEV): This data set contains six criteria describing a car, namely buying price, price of maintenance, number of doors, capacity in terms of persons to carry, the size of the luggage boot, and estimated safety of the car. The output is the overall evaluation of the car: unacceptable, acceptable, or good.
+Auto MPG (MPG)
+Source: the UCI repository (https://archive.ics.uci.edu/ml/index.php) (originally from the 1983 American Statistical Association Exposition)
+Number of alternatives: 392 (cars)
+Number of criteria: 7 (mpg, cylinders, displacement, horsepower, weight, acceleration, model year)
+Number of classes: 3 (city–cycle fuel consumption)
